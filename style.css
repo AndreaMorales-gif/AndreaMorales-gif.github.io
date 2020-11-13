@@ -9,17 +9,15 @@
     position: fixed;
     z-index: 1;
     text-decoration: none;
+    
 }
 
 .contenido_nav{
     margin: 1%;
     padding-left: 2%;
     padding: 2%;
+    
 }
-
-#bloque1{
-   height: 100%;
-} 
 
 .titulos{
     font-family: 'Antic Slab', serif;
@@ -52,5 +50,19 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
   }
-  
+  .fa-whatsapp{
+      text-decoration: none;
+      font-size: 1.8em;
+    }
+  .fa-facebook{
+      text-decoration: none;
+      font-size: 1.8em;
+  }
+
+  .fa-instagram{
+      text-decoration: none;
+      font-size: 1.8em;
+  }
+
+
 
