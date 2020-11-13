@@ -7,31 +7,34 @@
     margin-left: 20%;
     margin-right: 20%;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     text-decoration: none;
-    
 }
 
+/*  Estilo a los títulos de la barra */
 .contenido_nav{
     margin: 1%;
     padding-left: 2%;
     padding: 2%;
-    
 }
 
 .titulos{
     font-family: 'Antic Slab', serif;
+    margin-top: 7%;
 }
 
 .parrafos{
     font-family: 'Dosis', sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
 }
 
+/*Posición de imagen*/
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/portada.png");
@@ -50,6 +53,8 @@ body, html {
     transform: translate(-50%, -50%);
     color: white;
   }
+
+  /*Estilo de iconos*/
   .fa-whatsapp{
       text-decoration: none;
       font-size: 1.8em;
