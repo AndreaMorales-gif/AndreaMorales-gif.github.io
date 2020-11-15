@@ -77,10 +77,20 @@ body, html {
 
 /*Estilo de imagen*/
 
-.foto{
+.foto img{
     background-size: contain;
-    width: 165px;
-    height: 165px;
+    width: 170px;
+    height: 140px;
     border-radius: 50%;
+    margin-left: 5%;
+}
+
+.estudios{
+  background-image: url("imagenes/_Fondo\ .png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
