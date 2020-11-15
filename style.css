@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 1;
     text-decoration: none;
-    background-color: rgba(224, 255, 198, 0.87);
+    background-color: rgba(201, 202, 202, 0.932);
 }
 
 /*  Estilo a los títulos de la barra */
@@ -17,10 +17,11 @@
     margin: 1%;
     padding-left: 2%;
     padding: 2%;
+    text-decoration: none;
 }
 
 .contenido_nav:hover{
-  background-color: rgba(159, 223, 107, 0.664);
+  background-color: rgba(128, 128, 128, 0.692);
 }
 
 .titulos{
@@ -74,5 +75,12 @@ body, html {
       font-size: 2em;
   }
 
+/*Estilo de imagen*/
 
+.foto{
+    background-size: contain;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+}
 
