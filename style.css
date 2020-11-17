@@ -2,7 +2,7 @@
 /*  Poner barra de navegación */
 .topnav {
   overflow: hidden;
-  background-color: #F5EAEF;
+  background-color: #fadfeb;
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -56,8 +56,6 @@
 
 .titulos{
     font-family: 'Antic Slab', serif;
-    
-    
 }
 
 .parrafos{
@@ -107,20 +105,10 @@ body, html {
 
 /*Estilo de imagen*/
 
-.foto img{
-    background-size: contain;
-    width: 170px;
-    height: 140px;
-    border-radius: 50%;
-    margin-left: 5%;
-}
-
 .estudios{
-  background-color:#D0BCC4 ;
+  background-image: url("imagenes/Fondo\ \(5\).png");
     height: 200%;
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .titulo_estudios{
