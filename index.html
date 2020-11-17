@@ -15,10 +15,10 @@
 </head>
 <body>
   <!--Barra de navegación-->
-    <div class="navegacion">
+    <div class="topnav" id="myTopnav">
         <div class="contenido_nav" style="color: black;"><a href="#inicio">Inicio</a></div>
-        <div class="contenido_nav" style="color: black;"><a href="#perfil"></a>Perfil</a></div>
-        <div class="contenido_nav" style="color: black;"><a href="#"><a href="">Competencias</a></div>
+        <div class="contenido_nav" style="color: black;"><a href="#perfil">Perfil</a></div>
+        <div class="contenido_nav" style="color: black;"><a href="#">Competencias</a></div>
         <div class="contenido_nav"style="color: black;"><a href="#">Trabajos</a></div>
     </div>
     
@@ -49,6 +49,15 @@
     </div>
   </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
 </body>
 </html>
