@@ -60,7 +60,7 @@
 
 .parrafos{
     font-family: 'Dosis', sans-serif;
-   
+   font-size: 1.2em;
 }
 
 /*Posición de imagen*/
@@ -70,7 +70,7 @@ body, html {
 
 }
   
-  .hero-image {
+.hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/portada.png");
     height: 100%;
     background-position: center;
@@ -103,20 +103,31 @@ body, html {
       font-size: 2em;
   }
 
-/*Estilo de imagen*/
+/*Estilo de imagen para fondo ___ segunda parte*/
 
 .estudios{
   background-image: url("imagenes/Fondo\ \(5\).png");
-    height: 200%;
+    height: 100%;
     background-repeat: no-repeat;
 }
 
 .titulo_estudios{
   text-align: center;
-  margin-top: 2.5%;
+  margin-top: -0.5%;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+}
+
+.parrafo_estudios{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 7%;
 }
 
 .linea{
   background-color: #462B45;
   height: 5%;
 }
+
+
