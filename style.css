@@ -2,7 +2,7 @@
 /*  Poner barra de navegación */
 .topnav {
   overflow: hidden;
-  background-color: #fadfeb;
+  background-color: #D0BCC4;
   position: fixed;
   z-index: 9999;
   width: 100%;
@@ -19,7 +19,7 @@
 }
 
 .topnav a:hover {
-  background-color: #D0BCC4;
+  background-color: #A994A7;
   color: #884A6F;
 }
 
@@ -60,14 +60,12 @@
 
 .parrafos{
     font-family: 'Dosis', sans-serif;
-   font-size: 1.2em;
 }
 
 /*Posición de imagen*/
 body, html {
   height: 100%;
   margin: 0;
-
 }
   
 .hero-image {
@@ -103,17 +101,16 @@ body, html {
       font-size: 2em;
   }
 
-/*Estilo de imagen para fondo ___ segunda parte
-
-*/
+/*Estilo de imagen para fondo ___ segunda parte*/
 
 .foto img{
   width: 170px;
   height: 150px;
   text-align: center;
 }
+
 .container_estudios{
-  background-color:#F5EAEF;
+  background-color:#ffe6f1;
   padding: 1%;
 }
 
@@ -139,13 +136,40 @@ body, html {
   height: 5%;
 }
 
+/*Tercera parte_ Progreso*/
 .container_progreso{
-  background-color:#F1EFF2;
+  background-image: url("imagenes/_Fondo\ \(1\).png");
   padding: 1%;
 }
 
 .progreso{
-  border: 2px solid A994A7;
+  border: 2px solid #772b75;
   text-align: center;
 }
 
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  background-color:#D0BCC4;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  color: white;
+}
+
+.html {width: 75%; background-color: #A994A7;}
+.css {width: 68%; background-color: #A994A7;}
+.js {width: 60%; background-color: #A994A7;}
+.php {width: 47%; background-color: #A994A7;}
+.java{width: 30%; background-color: #A994A7;}
+.reactjs{width: 80%; background-color: #A994A7;}
+.python{width: 55%; background-color: #A994A7;}
+
+.tres{
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+}
