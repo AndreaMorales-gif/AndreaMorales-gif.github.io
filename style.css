@@ -103,17 +103,26 @@ body, html {
       font-size: 2em;
   }
 
-/*Estilo de imagen para fondo ___ segunda parte*/
+/*Estilo de imagen para fondo ___ segunda parte
 
-.estudios{
-  background-image: url("imagenes/Fondo\ \(5\).png");
-    height: 100%;
-    background-repeat: no-repeat;
+*/
+
+.foto img{
+  width: 170px;
+  height: 150px;
+  text-align: center;
+}
+.container_estudios{
+  background-color:#F5EAEF;
+  padding: 1%;
 }
 
+.estudios{
+  border: 2px solid #462B45;
+  text-align: center;
+}
 .titulo_estudios{
   text-align: center;
-  margin-top: -0.5%;
   font-family: 'Antic Slab', serif;
   font-weight: bold;
 }
@@ -121,8 +130,8 @@ body, html {
 .parrafo_estudios{
   font-family: 'Dosis', sans-serif;
   text-align: center;
-  padding-left: 20%;
-  padding-right: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .linea{
@@ -130,4 +139,13 @@ body, html {
   height: 5%;
 }
 
+.container_progreso{
+  background-color:#F1EFF2;
+  padding: 1%;
+}
+
+.progreso{
+  border: 2px solid A994A7;
+  text-align: center;
+}
 
