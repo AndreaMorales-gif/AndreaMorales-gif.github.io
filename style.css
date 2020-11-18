@@ -31,6 +31,7 @@
 .topnav .icon {
   display: none;
 }
+/*Poner barra responsive*/
 
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -53,7 +54,7 @@
     text-align: left;
   }
 }
-
+/*Estilos de títulos y párrafos*/
 .titulos{
     font-family: 'Antic Slab', serif;
 }
@@ -101,14 +102,14 @@ body, html {
       font-size: 2em;
   }
 
-/*Estilo de imagen para fondo ___ segunda parte*/
+/*Estilo de imagen en el centro ___ segunda parte*/
 
 .foto img{
   width: 170px;
   height: 150px;
   text-align: center;
 }
-
+/*Estilo del containares para bordear y espaciado*/
 .container_estudios{
   background-color:#ffe6f1;
   padding: 1%;
@@ -118,6 +119,8 @@ body, html {
   border: 2px solid #462B45;
   text-align: center;
 }
+
+/*Estilo títulos y párrafos_ segunda parte*/
 .titulo_estudios{
   text-align: center;
   font-family: 'Antic Slab', serif;
@@ -130,18 +133,18 @@ body, html {
   padding-left: 10%;
   padding-right: 10%;
 }
-
+/*Línea que separa cada página*/
 .linea{
   background-color: #462B45;
   height: 5%;
 }
 
-/*Tercera parte_ Progreso*/
+/*Tercera parte_ Progreso_ imagen de fondo*/
 .container_progreso{
   background-image: url("imagenes/Fondo.png");
   padding: 1%;
 }
-
+/*Borde o recuadro*/
 .progreso{
   border: 2px solid #772b75;
   text-align: center;
@@ -153,7 +156,7 @@ body, html {
   width: 100%;
   background-color:#D0BCC4;
 }
-
+/*Estilo para las barras de progreso*/
 .skills {
   text-align: right;
   padding-top: 0.5%;
@@ -167,9 +170,78 @@ body, html {
 .php {width: 47%; background-color: #A994A7;}
 .java{width: 30%; background-color: #A994A7;}
 .reactjs{width: 80%; background-color: #A994A7;}
-.python{width: 55%; background-color: #A994A7;}
+.python{width: 50%; background-color: #A994A7;}
 
+/*Estilo titulos tercera parte*/
 .tres{
   font-family: 'Antic Slab', serif;
   font-weight: bold;
 }
+
+.contenedor_principal{
+  width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    background:#fae6ef;
+}
+
+/*Estilos para espaciado, títulos, párrafos 1mer contenedor*/
+.PrimerContenedor{
+  background-color:#fae6ef;
+    width: 45%;
+    padding: 2%;
+}
+
+.textoUno{
+  color: #462B45;
+  text-align: center;
+}
+
+.titleUno{
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+}
+.spanUno{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  color:  #884A6F;
+}
+
+/*Estilos para espaciado, títulos, párrafos 2do contenedor*/
+.SegundoContenedor{
+  background-color:#fae6ef;
+    width: 50%;
+    padding: 2%;
+}
+
+.textoDos{
+  color: #462B45;
+  text-align: center;
+}
+
+.titleDos{
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+}
+.spanDos{
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  color:  #884A6F;
+}
+
+/*Línea de fotos*/
+.dividor{
+    margin-top: 0%;
+    width: 100%;
+    height: 3px;
+    background-color: #ff81ba;
+}
+
+.contenedorFotos{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
