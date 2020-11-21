@@ -419,3 +419,48 @@ body, html {
 	}
  
 }
+/*Pasiones*/
+.pasiones{
+  background-image:url("imagenes/Fondo3.jpg");
+  float: left;
+  box-sizing: border-box;
+  padding: 1%;
+  height: 85%;
+}
+.column1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/ciencia2.jpg");
+  float: left;
+  width: 33.33%;
+  padding: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.column2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/tecnologia.jpg");
+  float: left;
+  width: 33.33%;
+  padding: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.column3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("imagenes/leer.jpeg");
+  float: left;
+  width: 33.33%;
+  padding: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
